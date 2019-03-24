@@ -43,6 +43,7 @@ namespace CurrencyFormatConverter
             double[] myArray = new[] { valueOne, valueTwo, valueThree };
             double smallest = myArray.Min();
             double largest = myArray.Max();
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
 
             Console.WriteLine("The total amount you entered is " + valueTotal + ".");
 
